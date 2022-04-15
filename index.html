@@ -1,0 +1,256 @@
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Druskininkai</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="/css/main.min.css" rel="stylesheet">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-building"></i>
+          Druskininkai
+          <i class="bi bi-building"></i>
+        </span>
+      </a>
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar" href="#sidebar">MENIU</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main image & intro text -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        
+        <div class="col-md-5 text-center d-none d-md-block">
+          <!-- tooltip -->
+          <span class="tt" data-bs-placement="bottom" title="Druskininkai">
+            <img src="/assets/ebook-cover.png" class="img-fluid" alt="ebook">
+          </span>
+        </div>
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">Kodėl verta gyventi Druskininkuose?</div>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing plans -->
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>3 Priežastys</h2>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-1">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Švarus oras</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Druskininkai, kaip kurortas, didelį dėmesį skiria ekologijos ir aplinkosaugos klausimams bei aplinkosauginiam švietimui...</p>
+              <a href="svarusoras.html" class="btn btn-outline-primary btn-lg mt-3">
+                Plačiau
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-1">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Lengvas susisiekimas</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Per 20 minučių galite nuvažiuti į miesto centrą ir grįžti atgal į namus be jokių kamščių...</p>
+              <a href="susisiekimas.html" class="btn btn-outline-primary btn-lg mt-3">
+                Plačiau
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-1">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Pramogos</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Poilsis Druskininkuose - tai ne tik plūduriavimas baseine, masažai ir burbuliukai aromatinėse voniose ar masažai grožio salonuose...</p>
+              <a href="pramogos.html" class="btn btn-outline-primary btn-lg mt-3">
+                Plačiau
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end container -->
+  </section>
+
+  <!-- topics at a glance -->
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Miesto apdovanojimai</h2>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="/assets/kindle.png" class="img-fluid" alt="ebook">
+        </div>
+        <div class="col-lg-6">
+          
+          <!-- accordion -->
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                  „Auksinė krivūlė“ 2018 m.
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>2018 metais  Druskininkų savivaldybė „Auksinių krivūlių“ apdovanojimuose apdovanota nominacija „Už proveržį energetikoje“.</p>
+                  <p>Nominacija skirta už ilgalaikes pastangas sprendžiant visiems druskininkiečiams ypač svarbų energetinės nepriklausomybės klausimą siekiant užtikrinti konkurencingą gamtinių dujų kainą.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                  „Auksinė krivūlė“ 2014 m.
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>2014 metais „Auksinę krivūlę“ Druskininkų savivaldybei skyrė Europos komisijos atstovybė. Nominacija „Stipri bendruomenė – stipri Europa“ savivaldybei įteikta už skirtingų amžių grupių bendruomenės narių subūrimą po vienu stogu.</p>
+                  <p>Druskininkų savivaldybė, perėmusi nenaudojamas senosios miesto katilinės pastatą, nusprendė, kad patogioje vietoje esančios patalpos – svarbi miesto infrastruktūros dalis, todėl buvo pradėti pastato rekonstrukcijos darbus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                  „Auksinė krivūlė“ 2011 m.
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>2011 metais Druskininkų savivaldybei „Auksinių krivūlių“ apdovanojimuose įteikta nominacija „Šviesiausias miestas“.</p>
+                  <p>Ši nominacija skirta įvertinus pasiekimus, darbą švietimo srityje ir Druskininkų savivaldybės pastangas, kad mažieji druskininkiečiai turėtų šviesias ir gražias mokymosi, kūrybos, sporto  erdves.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                  „Auksinė krivūlė“ 2010 m.
+                </button>
+              </h2>
+              <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>2010 metais  Druskininkų savivaldybė pelnė „Auksinę krivūlę“ „už pasiekimus sveikatinimo srityje kuriant ir plėtojant modernų kurortą“.</p>
+                  <p>Profesionaliai išvystytos sveikatinimo paslaugos ir  senųjų gydymo tradicijų bei modernių šiuolaikinių technologijų dermė vertinama ir Lietuvos, ir užsienio turistų. Druskininkų savivaldybė išsaugojo kurorto identitetui svarbias sveikatinimo tradicijas. </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                  „Auksinė krivūlė“ 2005 m.
+                </button>
+              </h2>
+              <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Pirmoji „Auskinė krivūlė“ Druskininkų savivaldybei įteikta 2005 metais. Vidaus reikalų ministerija Druskininkus apdovanojo nominacijoje „Už modernų valdymą“.</p>
+                  <p>Šis pasiekimas - itin reikšmingas, nes iki 2000-ųjų Druskininkams buvo klijuojamas mirštančio kurorto statusas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews list -->
+  <section id="reviews" class="bg-altlight">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2><i class="bi bi-stars text-altdark"></i>Žmonių atsiliepimai</h2>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <p class="mb-1">Atvažiavom į Druskininkus be didelių ambicijų ir norų persikraustyti. Čia įsigijom patalpas kaip investicinį projektą, manėm suremontuosim, parduosim ir keliausim toliau. Tvarkom reikalus, važinėjam po miestą, žiūrim - čia pilna galimybių, yra nuostabi infrastruktūra, didelių objektų, tokių kaip vandens parkas ar „Snow Arena“, dėka, kurortas yra gyvas ir pilnas žmonių. Jei atvirai, mes nematėme už ką mokam mokesčius gyvendami Vilniaus priemiestyje, nematėm tos infrastruktūros, net asfalto gatvėse nepaklojo niekas per dešimt metų, nors žmonių ten daugėja masiškai.</p>
+              <small>Pasakoja Remigijus</small>
+            </div>
+            <div class="list-group-item py-3">
+              <p class="mb-1">Atradau šį miestą dar jaunystėje - pirmą kartą čia atvažiavau į krepšinio stovyklą. Mane užbūrė tos baltos samanos, miškai, ežerai ir upės miesto centre. Šis miestas turi nepaprastą aurą. Jau tada kilo mintis, kad jeigu kažką gyvenime keisiu - kraustysiuosi į šį miestą.</p>
+              <small>Pasakoja Vilmantas</small>
+            </div>
+            <div class="list-group-item py-3">
+              <p class="mb-1">Kiekvieną dieną Druskininkuose jaučiu, kad gyvenu. Nors atvažiuoju čia pailsėti, visą laiką kažką veikiu, juk mes, moterys, juk visada randame kuo užsiimti. Druskininkuose susipažįstu su begale žmonių, jau septintus metus praktikuoju šiaurietišką ėjimą, kiekvieną dieną nueinu bent 10 000 žingsnių - taip rekomenduoja gydytojai. Namuose darau jogą, Tibeto kvėpavimus, dažnai važinėju dviračiu, vasarą ir rudenį nukeliauju iki miško - uogauju, grybauju. Tik spėk suktis, čia niekada nebūna nuobodu.</p>
+              <small>Pasakoja Sigita</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get updates / modal trigger -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <p class="lead">&copy; Deividas Brazauskas, Alytaus Kolegija, 2022</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- side panel / offcanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Druskininkai</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Kodėl verta gyventi Druskininkuose?</p>
+      <!-- dropdown -->
+        <ul>
+          <li><a class="dropdown-item" href="svarusoras.html">Švarus oras</a></li>
+          <li><a class="dropdown-item" href="susisiekimas.html">Lengvas susisiekimas</a></li>
+          <li><a class="dropdown-item" href="pramogos.html">Pramogos</a></li>
+        </ul>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+</html>
